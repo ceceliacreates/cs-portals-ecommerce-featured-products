@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Ionic Portals Ecommerce MFE</string>
+    <string name="title_activity_main">Ionic Portals Ecommerce MFE</string>
+    <string name="package_name">io.ionic.cs.portals.ecommerce.FeaturedProducts</string>
+    <string name="custom_url_scheme">io.ionic.cs.portals.ecommerce.FeaturedProducts</string>
+</resources>

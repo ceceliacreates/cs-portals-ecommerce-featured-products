@@ -1,10 +1,10 @@
-import { CapacitorConfig } from '@capacitor/cli';
+import { CapacitorConfig } from "@capacitor/cli";
 
 const config: CapacitorConfig = {
-  appId: 'io.ionic.starter',
-  appName: 'featured-products',
-  webDir: 'build',
-  bundledWebRuntime: false
+  appId: "io.ionic.cs.portals.ecommerce.FeaturedProducts",
+  appName: "Ionic Portals Ecommerce MFE",
+  webDir: "build",
+  bundledWebRuntime: false,
 };
 
 export default config;
