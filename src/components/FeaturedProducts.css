@@ -4,6 +4,10 @@
   margin-left: 16px;
 }
 
+.featured-products h2 {
+  align-items: center;
+}
+
 .featured-products ion-card {
   margin: 0 10px 0 0;
 }
