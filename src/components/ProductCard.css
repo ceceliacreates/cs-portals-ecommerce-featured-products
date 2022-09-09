@@ -12,6 +12,7 @@ ion-card.product-card {
 
 .product-card img {
   border-radius: 16px;
+  height: 48px;
 }
 
 .product-card.ion-activated {

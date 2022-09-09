@@ -14,7 +14,7 @@ const FeaturedProducts: React.FC = () => {
 
   const handleRefresh = () => {
     setIsDisabled(true);
-    Portals.publish<Message>({ topic: "live-update:sync" });
+    Portals.publish<Message>({ topic: "live-update:sync", data: "success" });
   };
 
   return (

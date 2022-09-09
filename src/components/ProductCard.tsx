@@ -8,11 +8,11 @@ interface ProductCardProps {
   product: Product;
 }
 
-const formatter = new Intl.NumberFormat("en-US", {
-  style: "currency",
-  currency: "USD",
-  maximumSignificantDigits: 2,
-});
+// const formatter = new Intl.NumberFormat("en-US", {
+//   style: "currency",
+//   currency: "USD",
+//   maximumSignificantDigits: 2,
+// });
 
 const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
   const handleItemSelection = (id: number) => {
@@ -29,8 +29,8 @@ const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
         alt={product.title}
         src={require(`../assets/images/${product.image}`)}
       />
-      <IonCardTitle>{product.title}</IonCardTitle>
-      <IonCardSubtitle>{formatter.format(product.price)}</IonCardSubtitle>
+      <IonCardTitle>{product.title.toUpperCase()}</IonCardTitle>
+      <IonCardSubtitle>{product.price.toString()}</IonCardSubtitle>
     </IonCard>
   );
 };
